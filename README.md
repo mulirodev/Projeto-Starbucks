@@ -13,7 +13,7 @@
 "Starbucks" é um projeto de website que está sendo desenvolvido por mim, e que ainda não está totalmente finalizado. Não é nada oficial, é apenas uma atividade para aprimorar os meus conhecimentos na programação. 
 
 
-- [Acessar projeto]()
+- [Acessar projeto](https://mulirodev.github.io/Projeto-Starbucks/)
 
 ## 🚀 Tecnologias
 
