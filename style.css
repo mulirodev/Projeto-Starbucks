@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.barra-superior {
+  background-color: seagreen; /* Cor de fundo verde */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Centralizar os elementos */
+  width: 100%; /* Largura total */
+  margin: 0; /* Remover margem */
+}
+
+.conteudo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caixa-texto {
+  width: 600px;
+  padding-left: 30px;
+}
+
+.caixa-imagem {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 250px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+button {
+  background-color: seagreen; /* cor do fundo do botão */
+  color: white; /* cor do texto */
+  border: none; /*remover ou adicionar borda */
+  padding: 20px; /*o tamanho do botão, ou qualquer coisa que seja */
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(58, 179, 110);
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  color: seagreen;
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container img {
+  padding-top: 10px;
+  padding-left: 20px;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+}
+.container p {
+  display: inline;
+  vertical-align: middle; /* Alinha verticalmente */
+  font-size: 30px;
+  font-family: "Fjalla One";
+}
+
+.copao {
+  width: 350px;
+  z-index: 2;
+  position: relative;
+  bottom: 220px;
+  right: 80px;
+}
+
+.imagemSeguindo {
+  width: 100px; /* ajuste conforme necessário */
+  height: 150px; /* ajuste conforme necessário */
+  background-size: cover; /* ajuste conforme necessário */
+  background-repeat: no-repeat; /* ajuste conforme necessário */
+  transition: top 0.3s; /* Adiciona uma transição suave */
+  margin: 0 10px; /* Ajusta a margem entre as imagens */
+  transition: transform 0.2s ease-in-out;
+}
+
+.imagens-container {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+  padding-bottom: 10px;
+  width: 50%; /* Defina a largura desejada */
+  max-width: 400px; /* Defina a largura máxima, se necessário */
+  margin: 0 auto; /* Centralize o contêiner na página */
+}
+
+.imagemSeguindo:hover {
+  transform: translateY(-20px); /* Ajuste conforme necessário */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.circulo {
+  background-color: seagreen;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(600px at right 800px);
+  z-index: 1;
+}
+
+.circulo {
+  background-color: rgb(201, 28, 201);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(600px at right 800px);
+  z-index: 1;
+}
+
+.circulo {
+  background-color: rgb(244, 188, 227);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(600px at right 800px);
+  z-index: 1;
+}
+
