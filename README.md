@@ -4,7 +4,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto Starbucks" src="./img/Capturar.PNG" width="55%" style="border-radius: 8%;">
+  <img alt="projeto Starbucks" src="./img/Capturar.PNG" width="55%" style="border-radius: 7%;">
 </p>
 
 
