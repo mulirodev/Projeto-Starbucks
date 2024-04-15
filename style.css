@@ -28,29 +28,21 @@ header {
     width: 100%;
 }
 
-.logo-container {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
-}
-
-.logoname {
-  color: white;
-
-}
-
 .logo {
-  margin-right: 10px;
- font-family: "Bebas Neue";
-
+  position: relative;
+  display: flex;
 }
 
+.logo p{
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
 
 .logo img {
     width: 60px; /* Ajuste o tamanho da logo conforme necessário */
-    padding-top: 2px;
-    
 }
 
 .search-container {
